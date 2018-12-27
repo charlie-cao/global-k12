@@ -1,6 +1,6 @@
 ---
 title: "这是使用Hogo和netlify cms创建的部署在netlify站点."
-subtitle: Support sustainable farming while enjoying a cup
+subtitle: 非常酷的编辑体验，这是在手机上输入的while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
