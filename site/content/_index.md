@@ -1,5 +1,5 @@
 ---
-title: "Great coffee with a conscience"
+title: "这是使用Hogo和netlify cms创建的部署在netlify站点."
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:
