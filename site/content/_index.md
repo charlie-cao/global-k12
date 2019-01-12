@@ -1,6 +1,6 @@
 ---
-title: "这是使用Hogo和netlify cms创建的部署在netlify站点."
-subtitle: 非常酷的编辑体验，这是在手机上输入的while enjoying a cup
+title: "My Hub"
+subtitle: 简单,快速,有效
 image: /img/home-jumbotron.jpg
 blurb:
     heading: 为什么是我们的服务呢
