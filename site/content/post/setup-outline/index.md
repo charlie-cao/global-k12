@@ -5,6 +5,9 @@ description: 如何简单的使用🔬上网呢
 image: /img/manager_screenshot@2x.png
 ---
 
+一切皆有可能
+
+
 # 第一阶段:
 
 1. 使用 https://proxyscrape.com/en/free-proxy-list 获取socket5 proxy list
