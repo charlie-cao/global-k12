@@ -18,8 +18,8 @@ image: /img/manager_screenshot@2x.png
 4. 在google VM上按照说明构建应用.创建成功后,将分享链接中的账号信息ss://xxx加入本地的outline和移动端outlin客户端中.愉快的学习吧.
 
 google vm费用
-![google cloud payment](/img/Snip20190113_21.png)
+![google cloud payment](Snip20190113_21.png)
 
 最后的成果
-![github clone test](/img/Snip20190113_20.png)
+![github clone test](Snip20190113_20.png)
 
