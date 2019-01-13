@@ -8,6 +8,11 @@ image: /img/manager_screenshot@2x.png
 ## celery 介绍
 
 ## 用法
+sudo pip install Celery
+
+我在本地启动了docker的rabbit,线上还有一个在k8s中部署的rabbitmq集群.
+
+
 
 ## 资源
 
