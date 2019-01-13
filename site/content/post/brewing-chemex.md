@@ -1,5 +1,5 @@
 ---
-title: A beginners’ guide to brewing with Chemex
+title: 如何使用netify构建自己的被托管的可输出的无头blog
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Brewing with a Chemex probably seems like a complicated, time-consuming
@@ -7,7 +7,13 @@ description: >-
   that's worth the effort every time.
 image: /img/blog-chemex.jpg
 ---
+如何使用netfiy构建静态内容系统
 
+1 注册netify
+2 使用netfiy cms模板初始化项目
+3 修改git里的内容，比如现在我就在移动端修改blog内容，提交修改，沾点灰自动编译并部署静态站
+
+修改模板引擎
 This [week](/wdwdw) we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts\*.
 
 In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is *"one of the best-designed products of modern times"*, and so is included in the collection of the Museum of Modern Art in New York City.
