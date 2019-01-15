@@ -109,6 +109,9 @@ $ git submodule update
 如果给 git clone 命令传递 --recursive 选项，它就会自动初始化并更新仓库中的每一个子模块。
 
 
+.gitignore只能忽略那些原来没有被 track 的文件，如果某些文件已经被纳入了版本管理中，则修改 .gitignore 是无效的。
+解决方法是先把本地缓存删除，然后再提交。
+
 ## 两个文件夹中文件比较工具 linux
 
 diff 是文件比较
