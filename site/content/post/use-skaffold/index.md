@@ -65,3 +65,6 @@ gcloud auth configure-docker
 
 
  https://www.youtube.com/watch?v=tTNrzEjROCo
+
+ 最好还是从 大家常用的平台开始,手动完成,理解了整个的思路,再使用这样自动化的工具吧.
+ 这里面有很多细节被隐藏了.一开始就用会有些懵.
