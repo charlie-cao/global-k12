@@ -62,3 +62,6 @@ gcloud auth configure-docker
 倒是有几个关键部分
  1 文件同步.
  2 版本控制.要是直接就上线,这不把中间测试和发布的环节省去了么.会缺少一些监管.
+
+
+ https://www.youtube.com/watch?v=tTNrzEjROCo
