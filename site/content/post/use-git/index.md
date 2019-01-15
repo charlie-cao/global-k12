@@ -120,3 +120,61 @@ diff 是文件比较
 
 
 ## git 常用命令
+
+## 将保存到本地的git仓库清空后提交到其他仓库中
+
+第一个方案,是否能够把这个仓库fock到vsts中..
+/var/discourse/shared/standalone
+
+
+查看当前容器使用的卷
+docker inspect 1d0cbba54f84 | grep Mounts
+
+将当前执行代码复制出容器并解压.
+
+git status
+
+
+
+git clone --bare git://github.com/username/project.git
+
+
+git push --mirror git@gitcafe.com/username/newproject.git
+git push --mirror https://altalabs.visualstudio.com/lapro-community/_git/lapro-community
+
+git clone --bare https://github.com/discourse/discourse.git distp
+
+ https://altalabs.visualstudio.com/lapro-community/_git/lapro-community
+
+
+1). 从原地址克隆一份裸版本库，比如原本托管于 GitHub。
+
+git clone --bare git://github.com/username/project.git
+--bare 创建的克隆版本库都不包含工作区，直接就是版本库的内容，这样的版本库称为裸版本库。
+
+2). 然后到新的 Git 服务器上创建一个新项目，比如 GitCafe。
+
+3). 以镜像推送的方式上传代码到 GitCafe 服务器上。
+
+cd project.git
+git push --mirror git@gitcafe.com/username/newproject.git
+-- mirror 克隆出来的裸版本对上游版本库进行了注册，这样可以在裸版本库中使用git fetch命令和上游版本库进行持续同步。
+
+4). 删除本地代码
+
+cd ..
+rm -rf project.git
+5). 到新服务器 GitCafe 上找到 Clone 地址，直接 Clone 到本地就可以了。
+
+git clone git@gitcafe.com/username/newproject.git
+这种方式可以保留原版本库中的所有内容
+
+这是OK的.
+
+但是问题是如果
+
+
+# On branch tests-passed
+nothing to commit, working directory clean
+
+
