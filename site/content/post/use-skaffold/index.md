@@ -51,3 +51,11 @@ open other shell and edit some source.
 ## deploy to g cloud [doing]
 
 gcloud auth configure-docker
+
+
+### 中间记录
+
+简单理解一下. Skaffold 是google的子项目,用来简化从开发到部署到K8集群的过程.也是CI CD的中间环节.
+
+使用容器话部署以及微服务架构应该有比较好的经验.这个需要找到.
+
